@@ -2,27 +2,37 @@
 ## Lab 01 - CIA & Risk: Hệ thống lưu điểm
 
 ### 1. Mục tiêu bài lab
-- Nhận diện tài sản cần bảo vệ.
+- Nhận diện tài sản cần bảo vệ trong một hệ thống thông tin đơn giản.
 - Phân biệt Confidentiality, Integrity, Availability.
 - Xác định threat, vulnerability, mitigation.
+- Thực hành workflow GitHub cơ bản để nhận và nộp bài.
 
 ### 2. Cách làm
-- Phân tích sự cố theo bộ ba CIA.
+- Đọc bối cảnh và xác định các thành phần quan trọng của hệ thống.
+- Phân tích từng sự cố theo bộ ba CIA.
+- Chọn sự cố B để phân tích sâu hơn theo threat - vulnerability - mitigation.
+- Hoàn thiện bài làm trong repo và commit/push lên GitHub.
 
 ### 3. Kết quả chính
 **Assets:**
-- Asset 1: Cơ sở dữ liệu chứa điểm của sinh viên.
-- Asset 2: Tài khoản đăng nhập của sinh viên và giảng viên.
+- Cơ sở dữ liệu chứa điểm
+- Tài khoản đăng nhập
 
 **CIA mapping:**
-- incident_a: Availability
-- incident_b: Integrity
-- incident_c: Confidentiality
+Sự cố A -> Availability
+Sự cố B -> Integrity
+Sự cố C -> Confidentiality
 
 **Phân tích sự cố B:**
-- threat: Kẻ xấu truy cập trái phép để sửa điểm.
-- vulnerability: Hệ thống thiếu xác thực mạnh và không lưu log.
-- mitigation: Áp dụng phân quyền chặt chẽ và ghi nhật ký thay đổi.
+
+Threat:
+Hacker xam nhap he thong de sua diem
+
+Vulnerability:
+He thong thieu xac thuc 2 lop
+
+Mitigation:
+Trien khai phan quyen chat che
 
 ### 4. Kết luận ngắn
-Qua bài lab này, em đã hiểu rõ hơn về cách áp dụng mô hình CIA. Việc xác định đúng tài sản (assets) giúp đưa ra biện pháp khắc phục (mitigation) phù hợp nhất.
+Em đã hiểu cách phân tích mô hình CIA và xác định rủi ro.
