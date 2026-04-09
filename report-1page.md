@@ -1,7 +1,7 @@
 ---
-incident_a: Availability
-incident_b: Integrity
-incident_c: Confidentiality
+incident_a: A
+incident_b: I
+incident_c: C
 threat: Ke xau truy cap trai phep de sua diem
 vulnerability: Thieu xac thuc va khong ghi log
 mitigation: Phan quyen chat che va ghi nhat ky
@@ -26,9 +26,9 @@ mitigation: Phan quyen chat che va ghi nhat ky
 - Tài khoản đăng nhập của giảng viên và sinh viên.
 
 **CIA mapping:**
-Sự cố A -> Availability
-Sự cố B -> Integrity
-Sự cố C -> Confidentiality
+Sự cố A -> A
+Sự cố B -> I
+Sự cố C -> C
 
 **Phân tích sự cố B:**
 - Threat: Kẻ xấu truy cập trái phép để sửa điểm.
