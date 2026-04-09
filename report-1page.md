@@ -1,30 +1,28 @@
 # FIT4012 - Report 1 Page
-## Lab 01 - CIA & Risk: Hệ thống lưu điểm
+## Lab 01 - CIA & Risk
 
 ### 1. Mục tiêu bài lab
-- Nhận diện tài sản cần bảo vệ và hiểu mô hình CIA.
-- Phân tích Threat, Vulnerability và đưa ra Mitigation.
+- Hieu ve mo hinh CIA va cac rui ro bao mat.
+- Thuc hanh workflow GitHub Actions.
 
 ### 2. Cách làm
-- Phân tích sự cố theo bộ ba CIA.
-- Hoàn thiện báo cáo và nộp qua GitHub Actions.
+- Phan tich su co theo CIA Mapping va Risk Analysis.
 
 ### 3. Kết quả chính
 
-#### Assets (Hình ảnh minh họa)
-![Minh hoa 1](https://via.placeholder.com/150)
-![Minh hoa 2](https://via.placeholder.com/150)
-
+#### Assets
+![Image 1](https://via.placeholder.com/150)
+![Image 2](https://via.placeholder.com/150)
 
 #### CIA Mapping
-- **incident_a**: Availability (Hệ thống bị sập, không thể truy cập để xem điểm).
-- **incident_c**: Confidentiality (Lộ thông tin điểm riêng tư của sinh viên).
-- **incident_b**: Integrity (Dữ liệu điểm bị thay đổi trái phép).
+- **incident_a**: Availability - He thong bi sap, khong the truy cap.
+- **incident_b**: Integrity - Du lieu bi thay doi trai phep.
+- **incident_c**: Confidentiality - Lo thong tin rieng tu cua sinh vien.
 
-#### Risk Analysis (Sự cố B)
-- **threat**: Kẻ xấu hoặc sinh viên tìm cách xâm nhập trái phép để sửa điểm.
-- **vulnerability**: Hệ thống không có xác thực 2 lớp và thiếu ghi log lịch sử chỉnh sửa.
-- **mitigation**: Triển khai phân quyền nghiêm ngặt (RBAC) và ghi nhật ký hệ thống (System Logging).
+#### Risk Analysis
+- **threat**: Ke sau xam nhap he thong de sua diem.
+- **vulnerability**: Thieu co che xac thuc 2 lop va logging.
+- **mitigation**: Trien khai RBAC va ghi nhat ky he thong logging.
 
 ### 4. Kết luận ngắn
-Em đã hiểu cách áp dụng mô hình CIA vào thực tế để đánh giá rủi ro. Việc xác định đúng Asset và Vulnerability giúp đưa ra giải pháp Mitigation phù hợp hơn. Bài lab này giúp em làm quen với quy trình làm việc chuyên nghiệp trên GitHub.
+Em da hoan thanh bai lab va hieu ro hon ve an toan thong tin.
