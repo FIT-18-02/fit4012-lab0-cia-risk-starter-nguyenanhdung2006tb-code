@@ -16,7 +16,4 @@
 ## Ghi chú thêm
 - Khó khăn gặp phải: Gặp lỗi validation do file báo cáo còn sót các đoạn placeholder mặc định và chưa đính kèm đủ 2 ảnh minh họa (assets) vào phần Kết quả chính.
 - Cách em xử lý: Đọc kỹ thông báo lỗi từ GitHub Actions, sau đó bổ sung ảnh chụp màn hình thực tế và viết lại phần kết luận của riêng mình thay vì để trống.
-- Điều em học được từ bài lab:
-1. Hiểu rõ hơn về cách áp dụng mô hình CIA (Confidentiality, Integrity, Availability) vào phân tích hệ thống thực tế.
-2. Biết cách sử dụng Git để quản lý phiên bản và đọc log lỗi từ hệ thống chấm điểm tự động để sửa bài.
-3. Tầm quan trọng của việc kiểm tra kỹ các checklist trước khi nộp bài.
+- Điều em học được từ bài lab: Em đã hiểu cách áp dụng mô hình CIA vào thực tế, biết cách sử dụng Git để quản lý phiên bản và hiểu tầm quan trọng của việc kiểm tra checklist trước khi nộp bài.
