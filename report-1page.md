@@ -2,29 +2,26 @@
 ## Lab 01 - CIA & Risk: Hệ thống lưu điểm
 
 ### 1. Mục tiêu bài lab
-- Nhận diện tài sản cần bảo vệ trong một hệ thống thông tin đơn giản.
-- Phân biệt Confidentiality, Integrity, Availability.
-- Xác định threat, vulnerability, mitigation.
-- Thực hành workflow GitHub cơ bản để nhận và nộp bài.
+- Nhận diện tài sản cần bảo vệ và hiểu mô hình CIA.
+- Phân tích Threat, Vulnerability và đưa ra Mitigation.
 
 ### 2. Cách làm
-- Đọc bối cảnh và xác định các thành phần quan trọng của hệ thống.
-- Phân tích từng sự cố theo bộ ba CIA.
-- Chọn sự cố B để phân tích sâu hơn theo threat - vulnerability - mitigation.
-- Hoàn thiện bài làm trong repo và commit/push lên GitHub.
+- Phân tích sự cố theo bộ ba CIA.
+- Hoàn thiện báo cáo và nộp qua GitHub Actions.
 
 ### 3. Kết quả chính
-**Assets:**
-- Cơ sở dữ liệu điểm sinh viên
-- Tài khoản đăng nhập của sinh viên và giảng viên
-- Hệ thống đăng nhập
 
-**CIA mapping:**
+#### Assets (Hình ảnh minh họa)
+![Minh hoa 1](https://via.placeholder.com/150)
+![Minh hoa 2](https://via.placeholder.com/150)
+
+
+#### CIA Mapping
 - **incident_a**: Availability (Hệ thống bị sập, không thể truy cập để xem điểm).
-- **incident_b**: Integrity (Dữ liệu điểm bị thay đổi trái phép).
 - **incident_c**: Confidentiality (Lộ thông tin điểm riêng tư của sinh viên).
+- **incident_b**: Integrity (Dữ liệu điểm bị thay đổi trái phép).
 
-**Phân tích sự cố B:**
+#### Risk Analysis (Sự cố B)
 - **threat**: Kẻ xấu hoặc sinh viên tìm cách xâm nhập trái phép để sửa điểm.
 - **vulnerability**: Hệ thống không có xác thực 2 lớp và thiếu ghi log lịch sử chỉnh sửa.
 - **mitigation**: Triển khai phân quyền nghiêm ngặt (RBAC) và ghi nhật ký hệ thống (System Logging).
