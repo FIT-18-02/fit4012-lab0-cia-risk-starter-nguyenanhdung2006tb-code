@@ -20,23 +20,14 @@
 - Hệ thống đăng nhập
 
 **CIA mapping:**
-Sự cố A -> Availability
-Sự cố B -> Integrity
-Sự cố C -> Confidentiality
+- **incident_a**: Availability (Hệ thống bị sập, không thể truy cập để xem điểm).
+- **incident_b**: Integrity (Dữ liệu điểm bị thay đổi trái phép).
+- **incident_c**: Confidentiality (Lộ thông tin điểm riêng tư của sinh viên).
 
 **Phân tích sự cố B:**
-Threat:
-Người không có quyền truy cập vào hệ thống và thay đổi điểm của sinh viên.
-
-Vulnerability:
-Hệ thống không có cơ chế kiểm soát quyền truy cập chặt chẽ hoặc không ghi log khi thay đổi điểm.
-
-Mitigation:
-Áp dụng phân quyền truy cập rõ ràng và lưu log khi có thay đổi điểm trong hệ thống.
+- **threat**: Kẻ xấu hoặc sinh viên tìm cách xâm nhập trái phép để sửa điểm.
+- **vulnerability**: Hệ thống không có xác thực 2 lớp và thiếu ghi log lịch sử chỉnh sửa.
+- **mitigation**: Triển khai phân quyền nghiêm ngặt (RBAC) và ghi nhật ký hệ thống (System Logging).
 
 ### 4. Kết luận ngắn
-Qua bài lab này em hiểu rõ hơn về mô hình CIA trong an toàn thông tin.
-Em học được cách phân tích một sự cố bảo mật dựa trên threat, vulnerability và mitigation.
-Phần khó nhất là xác định chính xác loại sự cố thuộc CIA nào.
-Bài lab cũng giúp em làm quen với việc sử dụng GitHub để nhận và nộp bài.
-Khi phân tích sự cố an toàn thông tin cần xác định đúng tài sản cần bảo vệ và rủi ro có thể xảy ra.
+Em đã hiểu cách áp dụng mô hình CIA vào thực tế để đánh giá rủi ro. Việc xác định đúng Asset và Vulnerability giúp đưa ra giải pháp Mitigation phù hợp hơn. Bài lab này giúp em làm quen với quy trình làm việc chuyên nghiệp trên GitHub.
